@@ -13,11 +13,11 @@
  * ejemploMethod();
  * ejemplo_variable;
  */
-
-class IndexController
+require_once "model/factura.php";
+class FacturaController
 {
-    public function indexMethod()
+    public function readCFDIMethod()
     {
-        require_once "views/index.php";
+        require_once "views/info_facturas.php";
     }
 }
