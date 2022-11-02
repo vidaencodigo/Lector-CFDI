@@ -22,7 +22,7 @@
             Selecciona archivos XML
         </p>
         <section class="carga">
-            <form enctype="multipart/form-data" class="form">
+            <form action="index.php?controller=factura&action=readCFDIMethod" method="POST" enctype="multipart/form-data" class="form">
                 <div class="wrapper">
                     <input type="file" name="cfdi[]" id="cfdi" multiple>
                     <label for="cfdi" class="wp-file"><i class="fa-solid fa-upload"></i></label>
