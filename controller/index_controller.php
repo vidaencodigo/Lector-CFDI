@@ -10,7 +10,7 @@
  * de la clase seran en CamelCase para las variables sera snake_case, las funciones 
  * y metodos usaran igualmente CamelCase pero con la primer palabra en minuscula,
  * EjemploClase{};
- * ejemploMetodo();
+ * ejemploMethod();
  * ejemplo_variable;
 */
 
